@@ -2,16 +2,14 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+- I created an event planner labeled with normal business hours (9am-5pm) indicating hours in grey as past time blocks, red for the current time block, and green as future time blocks to ensure events are recorded to keep track of my busy schedule!
+- This planner was created to record and keep track of events into local storage, so that I can refer back to my scheduled events.
+- The color-coded time blocks are labeled in order to make reading the planner easier to diffrentiate the events in accordance to the current work day and current time, as well as the events recorded that are already passed in the work day, and the events that are upcoming.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+My development environment was created in Visual Studio Code to write and correct my code, while simultanenously running the program live through the browser via the index.html file to test my code.
+Then, deploying my finished code live onto the website will be accessed through my code's URL on Github Pages.
 
 ## Usage
 
