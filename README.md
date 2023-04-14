@@ -12,12 +12,16 @@ My development environment was created in Visual Studio Code to write and correc
 Then, deploying my finished code live onto the website will be accessed through my code's URL on Github Pages.
 
 ## Usage
+- When the planner webpage is opened, the current date will be displayed  in the header in MM/DD/YYYY dayjs().format
+- Below the header, you can scroll to view the color of the time blocks from 9am to 5pm, indicating if the event inside the timeblock container is upcoming(green), inside the present hour(red), or in the past(gray).
+- Once you click into the timeblock container, you are able to record an event for your planner to store into localStorage when you click the save button.
+- Then, when you refresh the page, the event will stay where you recorded it thanks to local storage!
 
-Provide instructions and examples for use. Include screenshots as needed.
+- (These screenshots were taken late at night, so hours 9am-5pm were all future (green) events!)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+![alt text](./Screen%20Shot%202023-04-13%20at%2011.55.06%20PM.png/screenshot.png)
 
-![alt text](assets/images/screenshot.png)
+![alt text](./Screen%20Shot%202023-04-14%20at%2012.11.16%20AM.png)
 
 ## License
 See Repository
