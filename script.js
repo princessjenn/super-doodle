@@ -2,13 +2,15 @@
 
 
 // These variables within the document are being specified by specific selectors using querySelector method!
-const currentDayElement = document.querySelector("#current-day");
-const timeblocksElement = document.querySelector("#timeblocks");
+const timeblocksElement = document.getElementById("#timeblocks");
 const currentTime = dayjs().format("H"); //displays the hour
 
 // These are my declarations in dayjs.() format for the current day at the top of my planner
-const currentDate = dayjs().format("MM/DD/YYYY"); //displays in Month, Day, Year (American)
-currentDayElement.innerHTML = "Today is " + currentDate;
+document.addEventListener("DOMContentLoaded", function() {
+ const currentDateElement = document.getElementById("currentDate");
+ const currentDate = dayjs().format("MM/DD/YYYY");//displays in Month, Day, Year (American)
+ currentDateElement.textContent = "Today's date is " + currentDate;
+});
 
 
 let button9 = document.querySelector(".saveBtn[data-time = '9']")
